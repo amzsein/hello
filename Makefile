@@ -6,9 +6,9 @@ all: hello
 hello: hello.o
 	$(CC) -o $@ $(LDFLAGS) $(OBJS) -fprofile-arcs
 
-*.o: *.c
+%.o: %.c
 	$(CC) -c -o $@ $< $(CFLAGS) -fprofile-arcs -ftest-coverage
 
 clean:
-	rm *.o hello
+	rm -f *.gcov *.gcno *.gcda *.o hello
 
