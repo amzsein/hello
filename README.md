@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/amzsein/hello.svg?branch=master)](https://travis-ci.org/amzsein/hello)
+[![build](https://travis-ci.org/amzsein/hello.svg?branch=master)](https://travis-ci.org/amzsein/hello) [![health](https://coveralls.io/repos/amzsein/hello/badge.svg?branch=master)](https://coveralls.io/r/amzsein/hello?branch=master)
 
 # hello
 
